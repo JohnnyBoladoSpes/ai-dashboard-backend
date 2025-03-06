@@ -1,0 +1,7 @@
+django
+fastapi
+uvicorn
+langchain
+openai
+redis
+psycopg2

@@ -1,6 +1,5 @@
-from django.urls import path
-from analytics_api import views
+from django.urls import path, include
 
 urlpatterns = [
-    path("analyze/", views.analyze_data, name="analyze_data"),
+    path("v1/", include("analytics_api.views.v1.urls")),
 ]
